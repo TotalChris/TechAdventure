@@ -2,9 +2,9 @@ import java.util.Vector;
 
 //
 //
-// Location - represents a gaming location
+// Location - represents a game location
 //
-// Last modification date : October 08, 1997
+// Last modification date : December 15th 2019
 //
 
 public class Location {
@@ -12,7 +12,7 @@ public class Location {
     private String roomTitle;
     private String roomDescription;
     private Vector<Exit> exits;
-
+    private Vector<Item> items;
     private Vector<GameEvent> events;
     /**
      * Instantiates a new Location.
@@ -23,6 +23,8 @@ public class Location {
         roomTitle = "";
         roomDescription = "";
         exits = new Vector<>();
+        items = new Vector<>();
+        events = new Vector<>();
     }
 
 
@@ -41,6 +43,8 @@ public class Location {
 
         // Blank exits
         exits = new Vector<>();
+        items = new Vector<>();
+        events = new Vector<>();
     }
 
     /**
@@ -57,6 +61,8 @@ public class Location {
 
         // Blank exits
         exits = new Vector<>();
+        items = new Vector<>();
+        events = new Vector<>();
     }
 
     /**
@@ -148,11 +154,104 @@ public class Location {
         roomDescription = description;
     }
 
-    public void setOnEnter(GameEvent e){
-        onEnter = e;
+    /**
+     * Add an event to this Location. It is good practice to specify a name for the event prior to adding it. This way, it is easy to find using getEvent() later on.
+     *
+     * @param event The event to add.
+     */
+    public void addEvent(GameEvent event) {
+        events.add(event);
     }
 
-    public void enter(int hand){
-        onEnter.react(hand);
+    /**
+     * Remove an event from this Location.
+     *
+     * @param event the event to remove
+     * @return True if the event was removed from the list. False if the event was not found in the list.
+     */
+    public boolean removeEvent(GameEvent event) {
+        return events.remove(event);
+    }
+
+    /**
+     * Gets the event vector for this Location.
+     *
+     * @return The event vector for this Location
+     */
+    public Vector<GameEvent> getAllEvents() {
+        return events;
+    }
+
+    /**
+     * Get a specific event for the Location based on its name
+     *
+     * @param name The name string to look for
+     * @return The event that has that name. If no event is found, returns null.
+     */
+    public GameEvent getEvent(String name){
+        for (GameEvent e: events) {
+            if(e.getName().equals(name)){
+                return e;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Add an item to this Location. It is good practice to specify a name for the item prior to adding it. This way, it is easy to find using getItem() later on.
+     *
+     * @param item The item to add.
+     */
+    public void placeItem(Item item) {
+        items.add(item);
+    }
+
+    /**
+     * Remove an item from this Location.
+     *
+     * @param item the item to remove
+     * @return True if the item was removed from the list. False if the item was not found in the list.
+     */
+    public boolean removeItem(Item item) {
+        return items.remove(item);
+    }
+
+    /**
+     * Gets the item vector for this Location.
+     *
+     * @return The item vector for this Location
+     */
+    public Vector<Item> getAllItem() {
+        return items;
+    }
+
+    /**
+     * Get a specific item for the Location based on its name
+     *
+     * @param name The name string to look for
+     * @return The item that has that name. If no item is found, returns null.
+     */
+    public Item getItemByName(String name){
+        for (Item i: items) {
+            if(i.getName().equals(name)){
+                return i;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Get a specific item for the Location based on its global code
+     *
+     * @param code The code to look for
+     * @return The item that has that code. If no item is found, returns null.
+     */
+    public Item getItemByCode(int code){
+        for (Item i: items) {
+            if(i.getCode() == code){
+                return i;
+            }
+        }
+        return null;
     }
 }
