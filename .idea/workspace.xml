@@ -2,44 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2937185c-5a43-414c-aafd-a39db83debb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContainerEmptyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContainerFullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ItemNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnsafeCodeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adventure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Room9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TechAdventure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TechAdventureServerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,9 +20,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -62,12 +30,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -85,79 +48,39 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="2937185c-5a43-414c-aafd-a39db83debb8" name="Default Changelist" comment="" />
-      <created>1575398488097</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1575398488097</updated>
-      <workItem from="1575398491125" duration="16000" />
-      <workItem from="1576361193852" duration="718000" />
-      <workItem from="1576361926936" duration="132000" />
-      <workItem from="1576362072068" duration="2606000" />
-      <workItem from="1576366424612" duration="1476000" />
-      <workItem from="1576367916256" duration="2448000" />
-      <workItem from="1576377681145" duration="3859000" />
-      <workItem from="1576383507860" duration="26232000" />
-    </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="720" y="-758" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576387366375">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="720" y="-758" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1576387366375" />
-    <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576384251842">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1576384251842" />
-    <state x="540" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1576384249756">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1576384249756" />
-    <state x="690" y="-814" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576409408181">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="690" y="-814" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1576409408181" />
     <state x="718" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576367883811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1576367883811" />
-    <state x="363" y="274" key="FileChooserDialogImpl" timestamp="1576384247400">
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1576409899404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="363" y="274" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1576384247400" />
-    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1576369742919">
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576409899404" />
+    <state x="84" y="162" width="1672" height="716" key="SettingsEditor" timestamp="1576367901795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576369742919" />
-    <state x="662" y="-901" width="1672" height="716" key="SettingsEditor" timestamp="1576384795455">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="662" y="-901" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1576384795455" />
-    <state x="84" y="162" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1576383684077" />
     <state x="84" y="162" width="1672" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576367901795" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576383518696">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576377684817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1576383518696" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576377684817" />
     <state x="577" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576368298844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="577" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576368298844" />
-    <state width="636" height="432" key="javadoc.popup.new" timestamp="1576408827288">
-      <screen x="0" y="-1080" width="1920" height="1040" />
+    <state width="636" height="432" key="javadoc.popup.new" timestamp="1576380854774">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="636" height="432" key="javadoc.popup.new/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1576408827288" />
     <state width="636" height="432" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1576380854774" />
-    <state x="1148" y="-899" width="672" height="678" key="search.everywhere.popup" timestamp="1576385128054">
-      <screen x="0" y="-1080" width="1920" height="1040" />
+    <state x="1103" y="230" key="search.everywhere.popup" timestamp="1576364304718">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1148" y="-899" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1576385128054" />
     <state x="1103" y="230" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576364304718" />
   </component>
 </project>

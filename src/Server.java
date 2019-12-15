@@ -35,8 +35,6 @@ public class Server implements ConnectionListener {
                     games.get(e.getConnectionID()).processCommand(e.getData());
                     break;
                 case CONNECTION_TERMINATED:
-                    games.get(e.getConnectionID()).end();
-                    games.remove(e.getConnectionID());
                     break;
                 default:
                     // What is a reasonable default?
